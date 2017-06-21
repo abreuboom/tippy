@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		203FF4EC1EF9BCA800C3CFAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203FF4EB1EF9BCA800C3CFAF /* AppDelegate.swift */; };
-		203FF4EE1EF9BCA800C3CFAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203FF4ED1EF9BCA800C3CFAF /* ViewController.swift */; };
+		203FF4EE1EF9BCA800C3CFAF /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203FF4ED1EF9BCA800C3CFAF /* TipViewController.swift */; };
 		203FF4F11EF9BCA800C3CFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203FF4EF1EF9BCA800C3CFAF /* Main.storyboard */; };
 		203FF4F31EF9BCA800C3CFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 203FF4F21EF9BCA800C3CFAF /* Assets.xcassets */; };
 		203FF4F61EF9BCA800C3CFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 203FF4F41EF9BCA800C3CFAF /* LaunchScreen.storyboard */; };
 		203FF5011EF9BCA800C3CFAF /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203FF5001EF9BCA800C3CFAF /* tippyTests.swift */; };
 		203FF50C1EF9BCA800C3CFAF /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203FF50B1EF9BCA800C3CFAF /* tippyUITests.swift */; };
+		203FF51A1EF9D5A300C3CFAF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203FF5191EF9D5A300C3CFAF /* SettingsViewController.swift */; };
+		2054D4A91EF9F08F00FF48AC /* caviar_dreams in Resources */ = {isa = PBXBuildFile; fileRef = 2054D4A81EF9F08F00FF48AC /* caviar_dreams */; };
+		2054D4AB1EF9F0C500FF48AC /* CaviarDreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2054D4AA1EF9F0C500FF48AC /* CaviarDreams_Bold.ttf */; };
+		2054D4AD1EF9F0C900FF48AC /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2054D4AC1EF9F0C900FF48AC /* CaviarDreams.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		203FF4E81EF9BCA800C3CFAF /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		203FF4EB1EF9BCA800C3CFAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		203FF4ED1EF9BCA800C3CFAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		203FF4ED1EF9BCA800C3CFAF /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		203FF4F01EF9BCA800C3CFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		203FF4F21EF9BCA800C3CFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		203FF4F51EF9BCA800C3CFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,10 @@
 		203FF5071EF9BCA800C3CFAF /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		203FF50B1EF9BCA800C3CFAF /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		203FF50D1EF9BCA800C3CFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203FF5191EF9D5A300C3CFAF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2054D4A81EF9F08F00FF48AC /* caviar_dreams */ = {isa = PBXFileReference; lastKnownFileType = folder; name = caviar_dreams; path = ../../../Downloads/caviar_dreams; sourceTree = "<group>"; };
+		2054D4AA1EF9F0C500FF48AC /* CaviarDreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CaviarDreams_Bold.ttf; path = ../../Downloads/caviar_dreams/CaviarDreams_Bold.ttf; sourceTree = "<group>"; };
+		2054D4AC1EF9F0C900FF48AC /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CaviarDreams.ttf; path = ../../Downloads/caviar_dreams/CaviarDreams.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		203FF4DF1EF9BCA800C3CFAF = {
 			isa = PBXGroup;
 			children = (
+				2054D4AC1EF9F0C900FF48AC /* CaviarDreams.ttf */,
+				2054D4AA1EF9F0C500FF48AC /* CaviarDreams_Bold.ttf */,
 				203FF4EA1EF9BCA800C3CFAF /* tippy */,
 				203FF4FF1EF9BCA800C3CFAF /* tippyTests */,
 				203FF50A1EF9BCA800C3CFAF /* tippyUITests */,
@@ -97,9 +107,11 @@
 		203FF4EA1EF9BCA800C3CFAF /* tippy */ = {
 			isa = PBXGroup;
 			children = (
+				2054D4A81EF9F08F00FF48AC /* caviar_dreams */,
 				203FF4EB1EF9BCA800C3CFAF /* AppDelegate.swift */,
-				203FF4ED1EF9BCA800C3CFAF /* ViewController.swift */,
+				203FF4ED1EF9BCA800C3CFAF /* TipViewController.swift */,
 				203FF4EF1EF9BCA800C3CFAF /* Main.storyboard */,
+				203FF5191EF9D5A300C3CFAF /* SettingsViewController.swift */,
 				203FF4F21EF9BCA800C3CFAF /* Assets.xcassets */,
 				203FF4F41EF9BCA800C3CFAF /* LaunchScreen.storyboard */,
 				203FF4F71EF9BCA800C3CFAF /* Info.plist */,
@@ -234,6 +246,9 @@
 			files = (
 				203FF4F61EF9BCA800C3CFAF /* LaunchScreen.storyboard in Resources */,
 				203FF4F31EF9BCA800C3CFAF /* Assets.xcassets in Resources */,
+				2054D4A91EF9F08F00FF48AC /* caviar_dreams in Resources */,
+				2054D4AB1EF9F0C500FF48AC /* CaviarDreams_Bold.ttf in Resources */,
+				2054D4AD1EF9F0C900FF48AC /* CaviarDreams.ttf in Resources */,
 				203FF4F11EF9BCA800C3CFAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				203FF4EE1EF9BCA800C3CFAF /* ViewController.swift in Sources */,
+				203FF4EE1EF9BCA800C3CFAF /* TipViewController.swift in Sources */,
 				203FF4EC1EF9BCA800C3CFAF /* AppDelegate.swift in Sources */,
+				203FF51A1EF9D5A300C3CFAF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +525,7 @@
 				203FF5121EF9BCA800C3CFAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		203FF5131EF9BCA800C3CFAF /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +534,7 @@
 				203FF5151EF9BCA800C3CFAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		203FF5161EF9BCA800C3CFAF /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +543,7 @@
 				203FF5181EF9BCA800C3CFAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
